@@ -1,0 +1,25 @@
+{
+  "name": "botrpg",
+  "version": "1.0.0",
+  "description": "A",
+  "main": "bot.js",
+  "repository": "https://github.com/SMCodesprivate/BotRPG.git",
+  "author": "SMCodesprivate <samuelpvp150@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "extenso": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.9.3",
+    "mongoose": "^5.8.1",
+    "ms-to-hms": "^1.0.0",
+    "node-superfetch": "^0.1.9",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "on": "nodemon bot.js",
+    "dev": "nodemon web/server.js"
+  }
+}
